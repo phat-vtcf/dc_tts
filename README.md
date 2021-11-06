@@ -20,5 +20,5 @@ We generate speech samples based on our programing course description. Its txt f
 Download [this](https://www.dropbox.com/s/1oyipstjxh2n5wo/LJ_logdir.tar?dl=0).
 
 ## Notes
-To run the repo locally, python version lower than 3.7 is required for instaliing tensorflow 1 on your computer
-You need to used the code in script2run.py in your IDE in script mode to synthesize.
+   * To run the repo locally, python version lower than 3.7 is required for instaliing tensorflow 1 on your computer
+   * You need to used the code in script2run.py in your IDE in script mode to synthesize.
