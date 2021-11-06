@@ -1,0 +1,8 @@
+
+1. In this course, you will learn how to program in Python for voice technology. 
+2. Similar to other scientific settings, in voice technology, the code should be written so that it not only achieves the purpose for which it is designed, 
+3. but also has replicable results and can be appropriately reused. 
+4. Replicable and reusable code leads to replications and reuse, which lead to citations and impact.
+5. Therefore, this course mostly teaches you to efficiently and effectively write code suitable for replication and reuse of experiments. 
+6. This means your code should be easily understood by peer researchers.
+7. You will also learn to adjust your code in response to reviews and be encouraged to appropriately reuse code of others.
