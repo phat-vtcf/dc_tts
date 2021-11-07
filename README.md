@@ -1,6 +1,4 @@
-# Text-to-speech model: A TensorFlow Implementation of DC-TTS.
-
-
+# Testing STT performance on DC-TTS - _A Tensorflow Implementation of DC-TTS_.  
 
 ## Requirements:
 
