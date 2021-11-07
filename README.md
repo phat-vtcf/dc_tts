@@ -33,7 +33,7 @@ The Python notebook should be self-explanatory and easy to follow. Basically, it
   * STEP1: Clone the repository
   * STEP2: Create necessary folders
   * STEP3: Download & extract the pre-trained model
-  * STEP4: Create a function to customize sentences to be used for TTS synthesis
+  * STEP4: Customize sentences to be used for TTS synthesis or stick with pre-defined ones
   * STEP5: Synthesize the sentences and play the desired audio-file
 
 ## Results
