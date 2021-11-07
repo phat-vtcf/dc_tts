@@ -18,7 +18,7 @@ The original repository provides us with a [pre-trained model](https://www.dropb
 
 ## Original repository
 
-The [original repository](https://github.com/Kyubyong/dc_tts) makes use of a technique discussed in [this article](https://arxiv.org/abs/1710.08969). It makes use of a technique based on Convolutional Neural Networks (cnn). This is preferred to techniques involving Recurrent Neural Networks (RNN), because CNN-based synthesis requires less computing power and can be done faster. In this original repository a STT model was trained with the LJ dataset we are using, but also for Kate Winslett's and Nick Offerman's voices and even for a korean speaker. The TTS model was originally tested with the [Harvard sentences](http://www.cs.columbia.edu/~hgs/audio/harvard.html) which are recommended sentences to test TTS applications.
+The [original implementation](https://github.com/Kyubyong/dc_tts) makes use of a technique based on Convolutional Neural Networks (cnn) discussed in [this article](https://arxiv.org/abs/1710.08969). This is preferred to techniques involving Recurrent Neural Networks (RNN), because CNN-based synthesis requires less computing power and can be done faster. In this original repository a STT model was trained with the LJ dataset we are using, but also for Kate Winslett's and Nick Offerman's voices and even for a korean speaker. The TTS model was originally tested with the [Harvard sentences](http://www.cs.columbia.edu/~hgs/audio/harvard.html) which are recommended sentences to test TTS applications.
 
 ## The task
 
