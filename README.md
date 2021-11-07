@@ -26,7 +26,7 @@ For our task we did not just want to replicate the original results by using the
 
 ## How does the code work?
 
-Here, you have two choices. Simply press [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb) to open our Google Colab notebook. 
+Here, you have two choices. Simply press [![Open In Colab](https://colab.research.google.com/drive/1lg4HmCD_GhuoJjLPpfel0npiw5FxBQxk?authuser=1#scrollTo=ZNFKOgHQOtGL) to open our Google Colab notebook. 
 Or: download the [DC_TTS_test.ipynb]https://github.com/jkuhlemann/dc_tts/blob/test_inference/DC_TTS_test.ipynb to your computer and then open it in a Google Colaboratory environment and follow each step. 
 
 The Python notebook should be self-explanatory and easy to follow. Basically it follows these steps in order to test the TTS model:
