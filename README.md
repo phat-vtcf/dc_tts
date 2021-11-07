@@ -36,9 +36,10 @@ The Python notebook should be self-explanatory and easy to follow. Basically, it
   * STEP4: Customize sentences to be used for TTS synthesis or stick with pre-defined ones
   * STEP5: Synthesize the sentences and play the desired audio-file
 
-**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within your Google Colab session.**
+**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within your Google Colab session.** 
+It is also crucial to switch to Tensorflow 1.x (already included in the notebook).
 
 
 ## Results
 
-The code is working as it is supposed to. It creates .wav files for each sentence that was specified. The sentences can then be played using a widget. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. The model dealt well with general English input, but struggled with foreign words and (proper) names. For example, the TTS model is barely able to produce a proper pronunciation of a typical Dutch name like Wouter. We did expect this to occur though, because the model is specifically trained with English language data.
+The code is working as it is supposed to. It creates .wav files for each sentence that was specified. The sentences can then be played using a widget. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. The model dealt well with general English input, but struggled with foreign words and (proper) names. For example, the TTS model is barely able to produce a proper pronunciation of a typical Dutch name like Wouter. We did expect this to occur though, because the model is specifically trained with English language data. Further, slight glitches occurred in the audio sometimes. We encountered squeaky noises and some crackling sounds that were not part of the speech itself.
