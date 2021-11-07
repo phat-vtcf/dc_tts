@@ -22,7 +22,7 @@ The [original implementation](https://github.com/Kyubyong/dc_tts) makes use of a
 
 ## The task
 
-For our task we did not just want to replicate the original results by using the pre-defined sentences that are synthesized, but we also wanted to be able to dynamically run inference on the Text-to-Speech model. This means that, besides replicating the previous synthesis, we wanted to be able to to either use the examples from the Harvard sentences or to use our own sentences to synthesize. In terms of results, we expect the TTS synthesizer to be able to work with any input from the English language.
+For our task we did not just want to replicate the original results by using the pre-defined sentences that are synthesized, but we also wanted to be able to dynamically run inference on the Text-to-Speech model. This means that, besides replicating the previous synthesis, we wanted to be able to either use the examples from the Harvard sentences or to use our own sentences to synthesize. In terms of results, we expect the TTS synthesizer to be able to work with any input from the English language.
 
 ## How does the code work?
 
