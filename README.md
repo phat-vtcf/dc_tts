@@ -14,11 +14,11 @@
 The original repository provides us with a [pre-trained model](https://www.dropbox.com/s/1oyipstjxh2n5wo/LJ_logdir.tar?dl=0) based on the LJ Speech Dataset. With that, we are able to test the performance of the TTS model with pre-defined or custom sentences (see further steps).
 
 
-## Original repository
+## Original Repository
 
 The [original implementation](https://github.com/Kyubyong/dc_tts) makes use of a technique based on Convolutional Neural Networks (cnn) discussed in [this article](https://arxiv.org/abs/1710.08969). This is preferred to techniques involving Recurrent Neural Networks (RNN), because CNN-based synthesis requires less computing power and can be done faster. In this original repository a STT model was trained with the LJ dataset we are using, but also for Kate Winslett's and Nick Offerman's voices and even for a Korean speaker. The TTS model was originally tested with the [Harvard sentences](http://www.cs.columbia.edu/~hgs/audio/harvard.html) which are recommended sentences to test TTS applications.
 
-## The task
+## The Task
 
 For our task we did not just want to replicate the original results by using the pre-defined sentences that are synthesized, but we also wanted to be able to dynamically run inference on the Text-to-Speech model. This means that, besides replicating the previous synthesis, we wanted to be able to either use the examples from the Harvard sentences or to use our own sentences to synthesize. In terms of results, we expect the TTS synthesizer to be able to work with any input from the English language.
 
