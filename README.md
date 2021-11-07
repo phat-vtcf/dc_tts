@@ -36,7 +36,7 @@ The Python notebook should be self-explanatory and easy to follow. Basically, it
   * STEP4: Customize sentences to be used for TTS synthesis or stick with pre-defined ones
   * STEP5: Synthesize the sentences and play the desired audio-file
 
-**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within you Google Colab session.**
+**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within your Google Colab session.**
 
 
 ## Results
