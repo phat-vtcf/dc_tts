@@ -26,10 +26,11 @@ For our task we did not just want to replicate the original results by using the
 
 ## How does the code work?
 
-Here, you have two choices. Simply press [[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lg4HmCD_GhuoJjLPpfel0npiw5FxBQxk?authuser=1#scrollTo=ZNFKOgHQOtGL) to open our Google Colab notebook. 
-Or: download the [DC_TTS_test.ipynb]https://github.com/jkuhlemann/dc_tts/blob/test_inference/DC_TTS_test.ipynb to your computer and then open it in a Google Colaboratory environment and follow each step. 
+Here, you have two choices: 
+ * Simply press [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1lg4HmCD_GhuoJjLPpfel0npiw5FxBQxk?authuser=1#scrollTo=ZNFKOgHQOtGL) to open our Google Colab notebook. 
+ * Or: download the [DC_TTS_test.ipynb]https://github.com/jkuhlemann/dc_tts/blob/test_inference/DC_TTS_test.ipynb to your computer and then open it in a Google Colaboratory environment and follow each step. 
 
-The Python notebook should be self-explanatory and easy to follow. Basically it follows these steps in order to test the TTS model:
+The Python notebook should be self-explanatory and easy to follow. Basically, it follows these steps in order to test the TTS model:
 
   * STEP1: Clone the repository
   * STEP2: Create necessary folders
@@ -39,4 +40,4 @@ The Python notebook should be self-explanatory and easy to follow. Basically it 
 
 ## Results
 
-The code is working as it is supposed to. It automatically plays a .wav file that corresponds to the choice of the user. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. Another challenge is the pronunciation of non-English words, as the TTS synthesizer is barely able to pronounce a typically Dutch name like Wouter. We did expect this to occur though, because the model is specifically trained with English language data.
+The code is working as it is supposed to. It automatically plays a .wav file that corresponds to the choice of the user. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. The model dealt well with general English input, but struggled with foreign words and (proper) names. For example, the TTS model is barely able to produce a proper pronunciation of a typical Dutch name like Wouter. We did expect this to occur though, because the model is specifically trained with English language data.
