@@ -20,7 +20,7 @@ The [original implementation](https://github.com/Kyubyong/dc_tts) makes use of a
 
 ## The Task
 
-For our task we did not just want to replicate the original results by using the pre-defined sentences that are synthesized, but we also wanted to be able to dynamically run inference on the Text-to-Speech model. This means that, besides replicating the previous synthesis, we wanted to be able to either use the examples from the Harvard sentences or to use our own sentences to synthesize. In terms of results, we expect the TTS synthesizer to be able to work with any input from the English language.
+For our task we did not just want to replicate the original results by using the pre-defined sentences that are synthesized, but we also wanted to be able to interactively run inference on the Text-to-Speech model. This means that, besides replicating the previous synthesis, we wanted to be able to either use the examples from the Harvard sentences or to use our own sentences to synthesize. In terms of results, we expect the TTS synthesizer to be able to work with any input from the English language.
 
 ## How does the code work?
 
@@ -36,10 +36,13 @@ The Python notebook should be self-explanatory and easy to follow. Basically, it
   * STEP4: Customize sentences to be used for TTS synthesis or stick with pre-defined ones
   * STEP5: Synthesize the sentences and play the desired audio-file
 
-**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within your Google Colab session.** 
-It is also crucial to switch to Tensorflow 1.x (already included in the notebook).
+**If you run into issues at the point of synthesizing the speech, you probably forgot to turn on GPU hardware acceleration within your Google Colab session.** This is of course just one of many potential issues.
+It is also crucial to switch to Tensorflow 1.x (already included in the notebook). 
 
 
 ## Results
 
-The code is working as it is supposed to. It creates .wav files for each sentence that was specified. The sentences can then be played using a widget. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. The model dealt well with general English input, but struggled with foreign words and (proper) names. For example, the TTS model is barely able to produce a proper pronunciation of a typical Dutch name like Wouter. We did expect this to occur though, because the model is specifically trained with English language data. Further, slight glitches occurred in the audio sometimes. We encountered squeaky noises and some crackling sounds that were not part of the speech itself.
+The code is working as it is supposed to. It creates .wav files for each sentence that was specified. The sentences can then be played using a widget. One challenge we encountered was having to change lines in hyperparams.py in order to load the right directories, since the code was most likely not intended to run in a Google Colab environment. 
+
+## Findings
+The model dealt well with general English input, but struggled with foreign words and (proper) names. For example, the TTS model is barely able to produce a proper pronunciation of a typical Dutch name like Wouter. Further, words that might be common in spoken English, such as "dachshund", "ballet", "cliché" are also not synthesized correctly. We did expect this to occur though, because the model is specifically trained with English language data. Further, slight glitches occurred in the audio sometimes. We encountered squeaky noises and some crackling sounds that were not part of the speech itself. Unfortunately, we could not detect a pattern on when the glitches appear or not appear, we suspect that it is due to the model itself and not particularly the words used. This needs further research.
