@@ -13,6 +13,7 @@ This list can be found on: http://www.cs.columbia.edu/~hgs/audio/harvard.html
 The steps needed to run the synthesis process using the pretrained model are the following:
 
 0. Make sure the following libraries are installed, you can do this by using the 'pip install' command from the (Anaconda) command prompt.
+- Python <= 3.7
 - NumPy >= 1.11.1
 - TensorFlow >= 1.3
 - librosa
