@@ -23,3 +23,8 @@ We generate speech samples based on our programing course description. Its txt f
    * To run the repo locally, python version lower than 3.7 is required for instaliing tensorflow 1 on your computer
    * You need to used the code in script2run.py in your IDE in script mode to synthesize.
    * The first line of the txt file will be skipped, so better leave the start of your text to the second line
+
+## Finding
+   * There is a character number limit for one sentence, otherwise it will have error message and we need to split it into different audio files, which the author didn't mention it. 
+   * Sometimes there is high frequency noise when binding the syllables together.
+   * Some sentences sound cut off in the end as if the last phoneme is missing.
