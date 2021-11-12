@@ -11,7 +11,7 @@ we are using a pretrained model from https://github.com/Kyubyong/dc_tts , which 
 
 ## Synthesis
 We generate speech samples based on our programing course description. Its txt file is included in the repo.
-  * Download the pretrained model and unzip it. Then create a new file named "logdir" in the directory, and put the two model folders inside of it.
+  * Download the pretrained model and unzip it. Then create a new folder named "logdir" in the directory, and put the two model folders inside of it. The folder belongs in the same directory as the repository
 
   * Run `synthesize.py` and check the files in `samples`
   
