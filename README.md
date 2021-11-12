@@ -1,7 +1,11 @@
 The purpose of this repository is to easily replicate TTS synthesis as presented in the repository: dc_tts
+
 In doing so we used the provided pretrained model which you can download here: https://www.dropbox.com/s/1oyipstjxh2n5wo/LJ_logdir.tar?dl=0
+
 The original repository can be accessed via: https://github.com/Kyubyong/dc_tts
+
 The text-to-speech model used in this repository has been introduced in: https://arxiv.org/abs/1710.08969
+
 The repository uses the first list of Harvard sentences to test the speech quality of the text-to-speech model.
 This list can be found on: http://www.cs.columbia.edu/~hgs/audio/harvard.html
 
