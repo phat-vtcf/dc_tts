@@ -1,4 +1,4 @@
-
+the fisrt line will be ingnored
 1. In this course, you will learn how to program in Python for voice technology. 
 2. Similar to other scientific settings, in voice technology, the code should be written so that it not only achieves the purpose for which it is designed, 
 3. but also has replicable results and can be appropriately reused. 
