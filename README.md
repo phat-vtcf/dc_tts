@@ -55,7 +55,7 @@ One of the most common errors are caused by missing packages.
 These errors can be resolved by running the '!pip install PACKAGE_NAME' command, before running the code, or '!pip install PACKAGE_NAME == VERSION_NUMBER' if a specific version of said package is required.
 If this was indeed the case, restart the runtime after running this command, in order to ensure that Google Colab is aware of the newly installed package.
 
-12. The resulting files will be saved as .wav files in the samples folder.
+13. The resulting files will be saved as .wav files in the samples folder.
 The first twenty files are the Harvard sentences, the other three are sentences we added to extend the testing range with some more natural sentences.
 If you wish to create your own sentences, you can either add them to the document in similar fashion, or you can replace the current content of the file with your own sentences.
 Note that, in case you do this, the first line of the file doesn't get read and every line should be preceded by a number followed by a dot.
