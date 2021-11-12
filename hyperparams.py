@@ -35,7 +35,7 @@ class Hyperparams:
     data = "/data/private/voice/LJSpeech-1.0"
     # data = "/data/private/voice/kate"
     test_data = 'programming_course_description.txt'
-    # the test_data is the name of the file which contains the text you want to synthesize
+    # the test_data is the name of the file which contains the text you want to synthesize.We want to use own content in this txt file.
     vocab = "PE abcdefghijklmnopqrstuvwxyz'.?" # P: Padding, E: EOS.
     max_N = 180 # Maximum number of characters.
     max_T = 210 # Maximum number of mel frames.
