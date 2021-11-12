@@ -19,6 +19,7 @@ from scipy.io.wavfile import write
 from tqdm import tqdm
 
 def synthesize():
+    tf.compat.v1.disable_eager_execution()
     # Load data
     L = load_data("synthesize")
 
