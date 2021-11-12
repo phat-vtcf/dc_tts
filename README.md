@@ -22,3 +22,4 @@ We generate speech samples based on our programing course description. Its txt f
 ## Notes
    * To run the repo locally, python version lower than 3.7 is required for instaliing tensorflow 1 on your computer
    * You need to used the code in script2run.py in your IDE in script mode to synthesize.
+   * The first line of the txt file content should be empty
