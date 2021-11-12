@@ -7,7 +7,7 @@
   * scipy
   
 ## Data
-we are using a pretrained model from https://github.com/Kyubyong/dc_tts , which is trained by LJ Speech Dataset. The seven wav files in samples folder are the synthesized audio.
+we are using a pretrained model from https://github.com/Kyubyong/dc_tts, which is trained by LJ Speech Dataset. The seven wav files in samples folder are the synthesized audio.
 
 ## Pretrained Model for LJ
 
